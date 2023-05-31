@@ -1,0 +1,64 @@
+Fruteria Gil:
+
+La frutería tiene productos. Los productos tiene un id, un nombre, precio, tipo de producto (fruta, verdura, o fruto seco); los productos pueden ser comprados
+por varios clientes y un cliente puede comprar varios productos. Los clientes tienen un id, nombre, apellidos, dirección, telefono, email
+
+A su vez, un distribuidor puede proveer varios productos pero un producto puede ser distribuido por 0 distribuidores. Los distribuidores tienen un id, nombre,
+dirección, telefono, email.
+
+
+
+("Mandarina Clementina", 3.50),
+
+("Mangos", 2.95),
+
+("Ciruelas President", 2,70),
+
+("Naranja Cambria", 2.50),
+
+("Peras Blanquilla", 2.50),
+
+("Manzana Royal", 2.80),
+
+("Manazana Reineta", 3.50),
+
+("Kaki", 2.90),
+
+("Melocotón Amarillo", 5.80),
+
+("Kiwi Zespri", 5.80),
+
+("Melones", 1.90),
+
+("Piña", 5.80),
+
+("Platanos", 3.20),
+
+("Judias", 4.85),
+
+("Zanahorias", 1.90),
+
+("Calabacin", 5.80),
+
+("Acelgas", 2.20),
+
+("Tomates Raf", 4.90),
+
+("Tomate Rojo", 2.80),
+
+("Pimiento Rojo", 3.80),
+
+("Setas", 3.70),
+
+("Champiñón", 4.50),
+
+("Cebolla", 4.40),
+
+("Patatas", 4.40),
+
+("Nueces Nacronales", 3.20),
+
+
+
+
+

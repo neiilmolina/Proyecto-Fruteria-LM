@@ -1,0 +1,240 @@
+ body{
+    margin: 0px;
+    font-style:normal;
+    background: white;
+    font-style: inherit;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ /* header */
+header{
+    height: 150px;
+}
+
+    /* Parte verde 1 */
+header div:first-child{
+    background-color: #0cb02b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div:first-child div:first-child{
+    display:flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+header div:first-child div:last-child{
+    display:flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+header div p:hover{
+    text-decoration: underline black;
+}
+
+    /* Parte blanca */
+header div:last-child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header div:last-child div:first-child{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+#logo{
+    width: 50px;
+    height: 50px;
+}
+
+input{
+    width: 460px;
+}
+
+i [class="fas fa-shopping-cart"] p:hover{
+    color: #0cb02b;
+}
+
+/* nav */
+nav{
+    margin-left: 0;
+    margin-right: 0;
+    color: white;
+    background-color:white;
+    margin-bottom: 90px;
+}
+
+nav ul{
+    background-color: #0cb02b;
+    list-style-type: none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li{
+    padding: 10px;
+    border: 1px solid black;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration-line: none;
+}
+
+nav ul li:hover{
+    background-color: rgb(53, 53, 53);
+}
+
+#foto-fruteria{
+    margin-left: 25vw;
+}
+
+/* Productos */
+
+#introduccion{
+    padding: 90px;
+    text-align: center;
+    color:grey;
+    font-size: large;
+}
+
+#introduccion h2{
+    color: #0cb02b;
+}
+
+#introduccion strong{
+    color: #0cb02b;
+}
+
+#introduccion a{
+    color: grey;
+    text-decoration-line: none;
+}
+
+#introduccion a:hover{
+    color: black;
+    text-decoration-line: underline;
+}
+
+.titulo-producto{
+    margin-top: 0;
+    background-color:#0cb02b;
+    text-align: center;
+    color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.secciones{
+    margin-bottom: 100px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.productos{
+    padding-top: 100px;
+    border: 1px solid black;
+    text-align: center;
+    flex-basis: 230px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+}
+
+.productos:hover{
+    border: 1px solid #0cb02b;
+    
+}
+
+main section[class="productos"] img{
+    height: 130px;
+    width: 130px;
+}
+
+#foto-nuez{
+    height: 130px;
+    width: 130px;
+}
+
+#nuez{
+    margin-left: 44%;
+}
+
+footer{
+    background-color: rgb(53, 53, 53);
+    height: 500px;
+    padding-top: 10px;
+    color: white;
+}
+
+footer section{
+    margin-left: 12px;
+}
+
+iframe{
+    margin-top: 30px;
+    margin-left: 12px;
+    width: 300px;
+    height: 300px;
+}
+
+@media screen and (max-width: 480px){
+    #foto-fruteria{
+        width: 300px;
+        height: 200px;
+        margin-left: 15vw;
+    }
+
+    header input{
+        width: 100px;
+        height: 20px; 
+        border: 1px black solid;
+    }
+
+    nav ul{
+        margin-right: 0;
+        margin: 0;
+        padding-left: 4px;
+    }
+
+    nav ul li:nth-child(4){
+        font-size: xx-small;
+        padding: 14px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    #foto-fruteria{
+        width: 450px;
+        height: 350px;
+        margin-left: 23vw;
+    }
+
+    header input{
+        width: 300px;
+        height: 20px; 
+        border: 1px black solid;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1279px){
+    #foto-fruteria{
+        width: 570px;
+        height: 350px;
+        margin-left: 25vw;
+    }
+}
